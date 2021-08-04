@@ -1,0 +1,37 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* gallery */
+.gallery
+{
+    width:300px;
+    height:300px;
+    margin: 20px auto;
+}
+
+h1
+{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.gallery .images
+{
+    position: relative;
+}
+
+.small span{
+    position: absolute;
+    padding:5px;
+    top:-4px;
+    left:270px;
+    display: none;
+}
+
+.small:hover span
+{
+    display: block;
+}
